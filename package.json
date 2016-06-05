@@ -1,0 +1,36 @@
+{
+  "name": "json-cubes",
+  "version": "0.0.1",
+  "description": "slice and dice json",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansteh/json-cubes.git"
+  },
+  "keywords": [
+    "slice json",
+    "dice json",
+    "json"
+  ],
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "index.js"
+  ],
+  "author": "Andre Stehle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ansteh/json-cubes/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {}
+}
