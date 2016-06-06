@@ -11,7 +11,7 @@ const Decisions = (xAxis, yAxis) => {
   let collection = Create.collection([xAxis, yAxis]);
 
   return {
-    add: collection.add,
+    addCube: collection.add,
     variationsOf: collection.variationsOf
   };
 };
@@ -19,13 +19,14 @@ const Decisions = (xAxis, yAxis) => {
 let decisions = Decisions(['a', 'b'], ['1', '2', '3']);
 
 let cube;
-cube = decisions.add();
+cube = decisions.addCube();
 cube.set(['a', '1'], 1);
+cube.set(['a', '2'], 1);
 
-cube = decisions.add();
+cube = decisions.addCube();
 cube.set(['a', '1'], 0);
 
-cube = decisions.add();
+cube = decisions.addCube();
 cube.set(['a', '1'], 5);
 
 console.log(decisions.variationsOf(['a', '1']));
