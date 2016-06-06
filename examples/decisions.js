@@ -1,6 +1,6 @@
 'use strict';
 const _ = require('lodash');
-const Cubes = require('./index.js');
+const Cubes = require('../index.js');
 const Create = Cubes.Create;
 
 const Decisions = (xAxis, yAxis) => {
