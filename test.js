@@ -11,5 +11,4 @@ console.log(cube.get(['name', 'decision']));
 console.log(cube.set(['name', 'decision'], 1));
 console.log(cube.get(['name', 'decision']));
 
-
 //console.log(cube.getValues());

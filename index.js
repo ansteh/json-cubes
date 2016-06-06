@@ -1,5 +1,16 @@
 'use strict';
-const _ = require('lodash');
+const _ = {
+  map: require('lodash/map'),
+  forEach: require('lodash/forEach'),
+  concat: require('lodash/concat'),
+  get: require('lodash/get'),
+  set: require('lodash/set'),
+  keys: require('lodash/keys'),
+  isString: require('lodash/isString'),
+  isObject: require('lodash/isObject'),
+  camelCase: require('lodash/camelCase'),
+  isUndefined: require('lodash/isUndefined')
+};
 
 const Collection = (layers) => {
   let cubes = [];
