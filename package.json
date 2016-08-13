@@ -1,6 +1,6 @@
 {
   "name": "json-cubes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "slice and dice json",
   "main": "index.js",
   "scripts": {
